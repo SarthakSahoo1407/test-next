@@ -21,7 +21,13 @@ export default function Home() {
             .
           </li>
           <li className="tracking-[-.01em]">
-            Save and see your changes instantly DEV BRANCH.
+            Save and see your changes instantly DEV BRANCH DEMO.
+
+
+          </li>
+          <li>
+
+            {process.env.NEXT_PUBLIC_ENV_NAME}
           </li>
         </ol>
 
