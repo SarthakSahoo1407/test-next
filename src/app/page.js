@@ -26,6 +26,10 @@ export default function Home() {
           <li>
             {process.env.NEXT_PUBLIC_ENV_NAME}
           </li>
+          <li>
+            link for 
+            {" "+process.env.NEXT_PUBLIC_ENV_NAME}
+          </li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
